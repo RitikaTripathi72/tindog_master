@@ -1,0 +1,162 @@
+/*html elements*/
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1 {  font-family: "Tajawal-black", sans-serif;  font-size: 3.6rem;  line-height: 1.4;  font-weight: 900;}
+
+h2,h3{
+    
+    font-family:"Tajawal", sans-serif;
+    
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+p{
+    color: #8f8f8f;
+}
+
+
+#title .container-fluid{
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+/*coloring section*/
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    
+    background-color: #fff;
+}
+/*navigation bar*/
+.navbar{
+    padding:0 0  4.5rem;
+
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: "Ubuntu";
+
+}
+/*download buttons*/
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/*title image*/
+.image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 22%;
+}
+/*features*/
+#features{
+    padding: 7% 15%;
+    
+    position: relative;
+}
+.feature-box{
+    
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 3%;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/*testimonials*/
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 23px;
+
+}
+.testimonial-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#press{
+    background-color: #ef8172;
+    
+    padding: 3%; 
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+/*pricing section*/
+#pricing{
+padding: 100px;
+
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+.pricing-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+@media (max-width:1000px) {
+    h1{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    #title{
+        text-align: center;
+    }
+    .image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+    .cta-heading{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+}
+/*Call to Action*/
+#cta{
+    text-align: center;
+    font-family:"Tajawal-Black", sans-serif;  font-size: 3.6rem;  line-height: 1.4;  font-weight: 900;
+padding: 3% 15% ;
+}
+.cta-heading{
+    font-family:"Tajawal-Black", sans-serif;  font-size: 2.6rem;  line-height: 1.4;  font-weight: 900;
+padding: 3% 15% 0% ;
+
+padding-bottom: 2%;
+}
+ /*footer*/
+ #footer{
+    
+    padding: 7% 15%;
+ }   
+.social-icon{
+    margin: 20px 10px;
+}
